@@ -7,7 +7,7 @@ for i in range(months):
     print(f"Month {i+1}")
     m_income=int(input("Enter this month income"))
     income.append(m_income)
-    for j in range(category):
+    for j in range(category): 
           m_expenses=int(input("Enter the monthly expenses"))
           expenses.append(m_expenses)
 income=np.array(income)
