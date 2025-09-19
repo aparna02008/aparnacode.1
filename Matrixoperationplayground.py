@@ -14,7 +14,7 @@ class Matrix_opearation():
         print("Inverse of a:",c)
     def eigen_values(self):
         d,f=np.linalg.eig(self.a)
-        print("Eigenvalue of a :",d)
+        print("Eigenvalue of a :",d) 
         print("Eigenvector of a :",f)
        
 a=np.array([[1,2,3,4],[6,7,8,9],[10,11,2,4],[5,7,9,10]])
