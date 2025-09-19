@@ -12,7 +12,7 @@ print("City C:",c[2])
 
 
 d=a.max(axis=1)
-print("Maximum temperature of each day:",d)
+print("Maximum temperature of each day:",d) 
 
 e=np.argmax(c)
 city=["City A","City B","City c"]
