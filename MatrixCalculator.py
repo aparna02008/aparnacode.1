@@ -10,7 +10,7 @@ class matrix_calculator():
         return self.a-self.b
     def multiplication(self):
         return self.a*self.b
-    def division(self):
+    def division(self): 
         return self.a/self.b
 a=np.array([[1,2,3],[4,5,6]])
 b=np.array([[7,8,9],[6,1,3]])
